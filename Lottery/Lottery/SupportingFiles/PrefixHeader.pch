@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  Lottery
+//
+//  Created by carl on 2021/1/10.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MBProgressHUD.h"
+
+//MARK: - Common Macro Definition
+#ifdef DEBUG
+#define ZLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define ZLog(...)
+
+#endif
+
+#define PRINT_FUNCTION ZLog(@"%s", __func__)
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define NAV_BAR_HEIGHT self.navigationController.navigationBar.frame.size.height
+#define STATUS_BAR_HEIGHT self.view.window.windowScene.statusBarManager.statusBarFrame.size.height
+
+#endif /* PrefixHeader_pch */

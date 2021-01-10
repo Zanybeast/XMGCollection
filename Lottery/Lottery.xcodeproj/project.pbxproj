@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268E64111D55F6EDE32AA23F /* Pods_LotteryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBF422C6562204A5C0B6BA5 /* Pods_LotteryTests.framework */; };
+		4557B9DB1E09BAE8EA1A14E7 /* Pods_Lottery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACD3794251D5E3A256B46EB /* Pods_Lottery.framework */; };
 		C3A0B9E925A8202F00B5F3D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0B9E825A8202F00B5F3D8 /* AppDelegate.m */; };
 		C3A0B9EC25A8203000B5F3D8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0B9EB25A8203000B5F3D8 /* SceneDelegate.m */; };
 		C3A0B9EF25A8203000B5F3D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0B9EE25A8203000B5F3D8 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		C3A0B9FA25A8203100B5F3D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0B9F925A8203100B5F3D8 /* main.m */; };
 		C3A0BA0425A8203100B5F3D8 /* LotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0BA0325A8203100B5F3D8 /* LotteryTests.m */; };
 		C3A0BA0F25A8203100B5F3D8 /* LotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0BA0E25A8203100B5F3D8 /* LotteryUITests.m */; };
+		FC8105B56FB161FD6F46E28C /* Pods_Lottery_LotteryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED29CD4AEC1D9FC80CAC507D /* Pods_Lottery_LotteryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084BE8A26ACDA0C46E15D55C /* Pods-LotteryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryTests.debug.xcconfig"; path = "Target Support Files/Pods-LotteryTests/Pods-LotteryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD3B3EDE9018F9154283471 /* Pods-LotteryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryTests.release.xcconfig"; path = "Target Support Files/Pods-LotteryTests/Pods-LotteryTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FBF422C6562204A5C0B6BA5 /* Pods_LotteryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55157CA5F2D49DCE65DD59CB /* Pods-Lottery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottery.debug.xcconfig"; path = "Target Support Files/Pods-Lottery/Pods-Lottery.debug.xcconfig"; sourceTree = "<group>"; };
+		81F879E89CEE0924A39B977A /* Pods-Lottery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottery.release.xcconfig"; path = "Target Support Files/Pods-Lottery/Pods-Lottery.release.xcconfig"; sourceTree = "<group>"; };
+		9ACD3794251D5E3A256B46EB /* Pods_Lottery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF97BCE47C9B1B2A8E185CA3 /* Pods-Lottery-LotteryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottery-LotteryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lottery-LotteryUITests/Pods-Lottery-LotteryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3A0B9E425A8202F00B5F3D8 /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A0B9E725A8202F00B5F3D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3A0B9E825A8202F00B5F3D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,9 @@
 		C3A0BA0A25A8203100B5F3D8 /* LotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A0BA0E25A8203100B5F3D8 /* LotteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryUITests.m; sourceTree = "<group>"; };
 		C3A0BA1025A8203100B5F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CB0CDE25AA9171009DDED3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C5E125D7F249D3976EED4DC3 /* Pods-Lottery-LotteryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottery-LotteryUITests.release.xcconfig"; path = "Target Support Files/Pods-Lottery-LotteryUITests/Pods-Lottery-LotteryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED29CD4AEC1D9FC80CAC507D /* Pods_Lottery_LotteryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottery_LotteryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4557B9DB1E09BAE8EA1A14E7 /* Pods_Lottery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268E64111D55F6EDE32AA23F /* Pods_LotteryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8105B56FB161FD6F46E28C /* Pods_Lottery_LotteryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39CCA90AAE7CAD1F06EB15FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ACD3794251D5E3A256B46EB /* Pods_Lottery.framework */,
+				ED29CD4AEC1D9FC80CAC507D /* Pods_Lottery_LotteryUITests.framework */,
+				3FBF422C6562204A5C0B6BA5 /* Pods_LotteryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BDA727C097E944F02BB5A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55157CA5F2D49DCE65DD59CB /* Pods-Lottery.debug.xcconfig */,
+				81F879E89CEE0924A39B977A /* Pods-Lottery.release.xcconfig */,
+				AF97BCE47C9B1B2A8E185CA3 /* Pods-Lottery-LotteryUITests.debug.xcconfig */,
+				C5E125D7F249D3976EED4DC3 /* Pods-Lottery-LotteryUITests.release.xcconfig */,
+				084BE8A26ACDA0C46E15D55C /* Pods-LotteryTests.debug.xcconfig */,
+				2DD3B3EDE9018F9154283471 /* Pods-LotteryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C3A0B9DB25A8202F00B5F3D8 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +127,8 @@
 				C3A0BA0225A8203100B5F3D8 /* LotteryTests */,
 				C3A0BA0D25A8203100B5F3D8 /* LotteryUITests */,
 				C3A0B9E525A8202F00B5F3D8 /* Products */,
+				5BDA727C097E944F02BB5A3F /* Pods */,
+				39CCA90AAE7CAD1F06EB15FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +145,9 @@
 		C3A0B9E625A8202F00B5F3D8 /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
-				C3A0B9E725A8202F00B5F3D8 /* AppDelegate.h */,
-				C3A0B9E825A8202F00B5F3D8 /* AppDelegate.m */,
-				C3A0B9EA25A8202F00B5F3D8 /* SceneDelegate.h */,
-				C3A0B9EB25A8203000B5F3D8 /* SceneDelegate.m */,
-				C3A0B9ED25A8203000B5F3D8 /* ViewController.h */,
-				C3A0B9EE25A8203000B5F3D8 /* ViewController.m */,
+				C3CB0CEB25AA94C0009DDED3 /* RootController */,
 				C3A0B9F025A8203000B5F3D8 /* Main.storyboard */,
-				C3A0B9F325A8203100B5F3D8 /* Assets.xcassets */,
-				C3A0B9F525A8203100B5F3D8 /* LaunchScreen.storyboard */,
-				C3A0B9F825A8203100B5F3D8 /* Info.plist */,
-				C3A0B9F925A8203100B5F3D8 /* main.m */,
+				C3CB0CDA25AA915A009DDED3 /* SupportingFiles */,
 			);
 			path = Lottery;
 			sourceTree = "<group>";
@@ -137,6 +170,31 @@
 			path = LotteryUITests;
 			sourceTree = "<group>";
 		};
+		C3CB0CDA25AA915A009DDED3 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C3A0B9F325A8203100B5F3D8 /* Assets.xcassets */,
+				C3A0B9F525A8203100B5F3D8 /* LaunchScreen.storyboard */,
+				C3A0B9F825A8203100B5F3D8 /* Info.plist */,
+				C3A0B9F925A8203100B5F3D8 /* main.m */,
+				C3CB0CDE25AA9171009DDED3 /* PrefixHeader.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C3CB0CEB25AA94C0009DDED3 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				C3A0B9E725A8202F00B5F3D8 /* AppDelegate.h */,
+				C3A0B9E825A8202F00B5F3D8 /* AppDelegate.m */,
+				C3A0B9EA25A8202F00B5F3D8 /* SceneDelegate.h */,
+				C3A0B9EB25A8203000B5F3D8 /* SceneDelegate.m */,
+				C3A0B9ED25A8203000B5F3D8 /* ViewController.h */,
+				C3A0B9EE25A8203000B5F3D8 /* ViewController.m */,
+			);
+			path = RootController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3A0BA1325A8203100B5F3D8 /* Build configuration list for PBXNativeTarget "Lottery" */;
 			buildPhases = (
+				0B2282BD83F7E4AAB864183D /* [CP] Check Pods Manifest.lock */,
 				C3A0B9E025A8202F00B5F3D8 /* Sources */,
 				C3A0B9E125A8202F00B5F3D8 /* Frameworks */,
 				C3A0B9E225A8202F00B5F3D8 /* Resources */,
+				F98C478A60A626BA0ECB7F71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3A0BA1625A8203100B5F3D8 /* Build configuration list for PBXNativeTarget "LotteryTests" */;
 			buildPhases = (
+				611917253E4976A84F98FD8C /* [CP] Check Pods Manifest.lock */,
 				C3A0B9FB25A8203100B5F3D8 /* Sources */,
 				C3A0B9FC25A8203100B5F3D8 /* Frameworks */,
 				C3A0B9FD25A8203100B5F3D8 /* Resources */,
@@ -179,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3A0BA1925A8203100B5F3D8 /* Build configuration list for PBXNativeTarget "LotteryUITests" */;
 			buildPhases = (
+				CA658B2311B9B785E59EE800 /* [CP] Check Pods Manifest.lock */,
 				C3A0BA0625A8203100B5F3D8 /* Sources */,
 				C3A0BA0725A8203100B5F3D8 /* Frameworks */,
 				C3A0BA0825A8203100B5F3D8 /* Resources */,
+				EA777A1959988BB2CE57F0BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +323,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B2282BD83F7E4AAB864183D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		611917253E4976A84F98FD8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotteryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA658B2311B9B785E59EE800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottery-LotteryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA777A1959988BB2CE57F0BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottery-LotteryUITests/Pods-Lottery-LotteryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottery-LotteryUITests/Pods-Lottery-LotteryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lottery-LotteryUITests/Pods-Lottery-LotteryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98C478A60A626BA0ECB7F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottery/Pods-Lottery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottery/Pods-Lottery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lottery/Pods-Lottery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3A0B9E025A8202F00B5F3D8 /* Sources */ = {
@@ -438,12 +604,14 @@
 		};
 		C3A0BA1425A8203100B5F3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55157CA5F2D49DCE65DD59CB /* Pods-Lottery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H84TMMB74J;
-				INFOPLIST_FILE = Lottery/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SupportingFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = Lottery/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +624,14 @@
 		};
 		C3A0BA1525A8203100B5F3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F879E89CEE0924A39B977A /* Pods-Lottery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H84TMMB74J;
-				INFOPLIST_FILE = Lottery/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SupportingFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = Lottery/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +644,7 @@
 		};
 		C3A0BA1725A8203100B5F3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084BE8A26ACDA0C46E15D55C /* Pods-LotteryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +665,7 @@
 		};
 		C3A0BA1825A8203100B5F3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD3B3EDE9018F9154283471 /* Pods-LotteryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +686,7 @@
 		};
 		C3A0BA1A25A8203100B5F3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF97BCE47C9B1B2A8E185CA3 /* Pods-Lottery-LotteryUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H84TMMB74J;
@@ -532,6 +705,7 @@
 		};
 		C3A0BA1B25A8203100B5F3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E125D7F249D3976EED4DC3 /* Pods-Lottery-LotteryUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H84TMMB74J;
